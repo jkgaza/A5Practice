@@ -12,4 +12,12 @@ export class Practice1Component implements OnInit {
   ngOnInit() {
   }
 
+  toggle = true;
+  
+
+  changeColor(){
+    this.toggle = !this.toggle;
+    
+  }
+
 }

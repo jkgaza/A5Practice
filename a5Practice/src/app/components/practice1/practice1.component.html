@@ -1,1 +1,1 @@
-<button (click)="changeColor()">Click me!</button>
+<button (click)="changeColor()" [ngClass]="{'dark': toggle, 'light': !togggle}">Click me!</button>
