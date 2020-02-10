@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { Practice1Component } from './components/practice1/practice1.component';
+import { Practice2Component } from './components/practice2/practice2.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    Practice1Component
+    Practice1Component,
+    Practice2Component
   ],
   imports: [
     BrowserModule,
